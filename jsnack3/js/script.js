@@ -8,8 +8,6 @@ let userNumbers = [];
 for(let i=0; i < 10; i++) {
     // CHIEDO ALL'UTENTE 10 NUMERI
     userNumbers.push(prompt('Inserisci un numero. (lo farai 10 volte)'));
-     
-    console.log(userNumbers)
 }
 
 let sumNumbers = 0;
@@ -22,5 +20,4 @@ for(let i= 0; i < userNumbers.length; i++) {
     // MOSTRO RISULTATO
     console.log(sumResult)
 }
-
 
