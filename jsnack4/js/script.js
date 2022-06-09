@@ -9,7 +9,7 @@ for(let i=0; i < 6; i++) {
     yourNumbers.push(prompt('Inserisci un numero. lo farai 6 volte' ));
 }
 
-let oddNumbers = 0;
+let oddContain = []
 // LEGGO I NUMERI
 for(i=0; i < yourNumbers.length; i++) {
     // LI CONVERTO IN LINGUA MACCHINA 
@@ -17,11 +17,10 @@ for(i=0; i < yourNumbers.length; i++) {
     // CONTROLLO NON SIANO PARI
     if(checkNumb % 2 !== 0) {
         let oddNumbers = checkNumb;
-        console.log(oddNumbers)
-        
+        // AGGIUNGO I NUMERI DISPARI ALL'ARRAY
+        oddContain.push(oddNumbers += ' ');
     }
 }
 
- 
-
 // MOSTRO RISULTATO
+console.log(oddContain)
