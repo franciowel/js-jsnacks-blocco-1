@@ -7,7 +7,7 @@
 let userNumbers = [];
 for(let i=0; i < 10; i++) {
     // CHIEDO ALL'UTENTE 10 NUMERI
-    userNumbers.push(prompt('inserisci un numero'));
+    userNumbers.push(prompt('Inserisci un numero. (lo farai 10 volte)'));
      
     console.log(userNumbers)
 }
