@@ -2,18 +2,20 @@
 // Il programma stampa la somma di tutti i numeri inseriti.
 
 // // START
-let userNumber = 0;
+
+// GENERO UNA ARRAY VUOTA DOVE INSERIRE I NUMERI
+let userNumbers = [];
 for(let i=0; i < 10; i++) {
-    let userNumber = prompt('inserisci un numero');
+    // CHIEDO ALL'UTENTE 10 NUMERI
+    userNumbers.push(prompt('inserisci un numero'));
+    // LEGGO I NUMERI
 
-    let sumNumber = [];
+    // LI CONVERTO IN LINGUA MACCHINA 
 
-    sumNumber.push(userNumber += ' ');
-    console.log(userNumber)
-    console.log(sumNumber)
+    // SOMMO
+
+    // MOSTRO RISULTATO
+
+    console.log(userNumbers)
 }
 
-for(let i=0; i < sumNumber.length; i++) {
-    let addendNum = parseInt(sumNumber[i]);
-    console.log(addendNum)
-}
