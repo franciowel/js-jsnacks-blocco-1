@@ -4,20 +4,23 @@
 // // START
 
 // GENERO UNA ARRAY VUOTA DOVE INSERIRE I NUMERI
-let userNumbers = [];
-for(let i=0; i < 10; i++) {
-    // CHIEDO ALL'UTENTE 10 NUMERI
-    userNumbers.push(prompt('Inserisci un numero. (lo farai 10 volte)'));
-}
+// let userNumbers = [];
+// for(let i=0; i < 10; i++) {
+//     // CHIEDO ALL'UTENTE 10 NUMERI
+//     userNumbers.push(prompt('Inserisci un numero. (lo farai 10 volte)'));
+// }
 
 let sumNumbers = 0;
 // LEGGO I NUMERI
-for(let i= 0; i < userNumbers.length; i++) {
+for(let i= 0; i < 10; i++) {
     // LI CONVERTO IN LINGUA MACCHINA 
-    let addendsNum = parseInt(userNumbers[i]);
+    let addendsNum = parseInt( prompt('Dimmi un numero'));
+    console.log(addendsNum);
     // SOMMO
-    let sumResult = sumNumbers += addendsNum;
-    // MOSTRO RISULTATO
-    console.log(sumResult)
+    sumNumbers += addendsNum;
+    
 }
+
+// MOSTRO RISULTATO
+alert('Somma finale'+ ' ' + sumNumbers)
 
